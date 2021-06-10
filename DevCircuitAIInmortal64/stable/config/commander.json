@@ -1,4 +1,6 @@
 // Mono-space font required
+
+// version 0.2 (this helps me remember which files I need to update)
 {
 "commander": {
 	"prefix": "dyntrainer_",
@@ -16,40 +18,31 @@
 						[0.9, ["raider", "raider", "builder", "raider", "raider", "raider", "raider", "builder", "raider", "raider", "raider", "raider" "raider", "builder", "riot", "builder", "raider", "raider", "raider", "raider"]]
 					],
 					"factorygunship": [
-						[0.5, ["builder", "skirmish", "skirmish", "support", "skirmish", "skirmish"]],
-						[0.5, ["scout", "support", "builder","support", "skirmish", "skirmish", "support", "skirmish", "skirmish"]]
+						[0.8, ["support", "support", "support", "support", "skirmish", "skirmish", "support", "skirmish", "skirmish" "scout", "support", "builder","support", "skirmish", "skirmish", "support", "skirmish", "skirmish"]]
 					],
 					"factoryamph": [
-						[0.1, ["builder", "riot", "builder", "raider", "raider", "raider", "raider", "raider"]],
-						[0.9, ["raider", "raider", "raider", "raider", "raider", "builder", "builder", "riot"]]
+						[0.1, ["builder", "riot", "builder", "raider", "raider", "raider", "raider", "raider","raider", "raider", "raider", "raider", "raider", "builder", "raider", "riot"]]
 					],
 					"factoryveh": [
-						[0.1, ["scout", "builder", "scout", "skirmish", "builder", "raider", "raider", "raider", "raider", "raider", "raider"]],
-						[0.9, ["scout", "builder", "scout", "riot", "builder", "raider", "builder", "raider", "raider", "raider"]]
+						[0.1, ["scout", "scout", "scout", "skirmish", "builder", "scout", "scout", "scout", "raider", "raider", "raider","scout", "builder", "scout", "riot", "riot", "riot", "builder", "raider", "raider", "raider"]]
 					],
 					"factoryhover": [
-						[0.9, ["raider", "builder", "raider", "raider", "raider", "builder", "raider", "raider", "raider", "raider", "raider", "builder"]],
-						[0.1, ["raider", "builder", "raider", "raider", "raider", "builder", "skirmish", "builder", "skirmish", "skirmish"]]
+						[0.9, ["raider", "raider", "raider", "raider", "raider", "builder", "raider", "raider", "raider", "raider", "raider", "builder","raider", "builder", "raider", "raider", "raider", "builder", "skirmish", "skirmish", "skirmish", "skirmish"]]
 					],
 					"factoryplane": [
-						[0.5, ["anti_air", "builder", "anti_air", "anti_air"]],
-						[0.5, ["anti_air", "builder", "anti_air", "builder"]]
+						[0.5, ["anti_air", "builder", "anti_air", "anti_air", "anti_air", "builder", "anti_air", "anti-air"]]
 					],
 					"factorytank": [
-						[0.5, ["builder", "scout", "scout", "builder", "raider", "raider",  "raider"]],
-						[0.5, ["builder", "scout", "scout", "builder", "riot"]]
+						[0.5, ["builder", "scout", "scout", "builder", "raider", "raider",  "raider", "builder", "scout", "scout", "builder", "scout"]]
 					],
 					"factoryspider": [
-						[0.5, ["scout", "builder", "scout", "scout", "scout", "scout", "scout", "riot", "scout", "builder", "scout", "riot", "scout", "builder"]],
-						[0.5, ["scout", "builder", "scout", "scout", "scout", "scout", "riot", "scout", "builder", "support"]]
+						[0.5, ["scout", "builder", "scout", "scout", "scout", "scout", "scout", "riot", "scout", "scout", "scout", "riot", "scout", "builder","scout", "builder", "scout", "scout", "scout", "scout", "riot", "scout", "builder", "scout"]]
 					],
 					"factoryshield": [
-						[0.5, ["builder", "scout", "raider", "scout", "scout", "raider", "raider", "builder", "builder"]],
-						[0.5, ["builder", "scout", "scout", "raider", "raider", "builder", "raider", "raider", "raider"]]
+						[0.5, ["builder", "raider", "raider", "raider", "raider", "raider", "raider", "builder", "riot","riot", "raider", "raider", "raider", "raider", "builder", "raider", "raider", "raider"]]
 					],
 					"factoryjump": [
-						[0.5, ["scout", "scout", "raider", "scout","builder", "scout", "raider"]],
-						[0.5, ["scout", "scout", "scout", "scout", "builder", "raider", "scout", "raider"]]
+						[0.5, ["scout", "scout", "scout", "scout","builder", "raider", "raider","scout", "raider", "raider", "raider", "builder", "raider", "raider", "raider"]]
 					]
 				},
 				"default": ["riot", "raider", "builder"]
@@ -107,44 +100,36 @@
 					"factorycloak": [
 						// [<weight>, [<role>, <role>, ...]]
 						[0.9, ["raider", "raider", "builder", "raider", "raider", "raider", "raider", "builder", "raider", "raider", "raider", "raider" "raider", "builder", "riot", "builder", "raider", "raider", "raider", "raider"]]
-						],
+					],
 					"factorygunship": [
 						[0.8, ["support", "support", "support", "support", "skirmish", "skirmish", "support", "skirmish", "skirmish" "scout", "support", "builder","support", "skirmish", "skirmish", "support", "skirmish", "skirmish"]]
 					],
 					"factoryamph": [
-						[0.1, ["builder", "riot", "builder", "raider", "raider", "raider", "raider", "raider"]],
-						[0.9, ["raider", "raider", "raider", "raider", "raider", "builder", "builder", "riot"]]
+						[0.1, ["builder", "riot", "builder", "raider", "raider", "raider", "raider", "raider","raider", "raider", "raider", "raider", "raider", "builder", "raider", "riot"]]
 					],
 					"factoryveh": [
-						[0.2, ["scout", "scout", "builder", "raider", "raider", "raider", "raider", "builder", "scout"]],
-						[0.8, ["scout",  "raider", "scout", "raider", "raider", "raider", "builder", "builder", "scout", "raider", "raider"]]
+						[0.1, ["scout", "scout", "scout", "skirmish", "builder", "scout", "scout", "scout", "raider", "raider", "raider","scout", "builder", "scout", "riot", "riot", "riot", "builder", "raider", "raider", "raider"]]
 					],
 					"factoryhover": [
-						[0.5, ["raider", "builder", "raider", "raider", "raider", "raider", "builder", "raider", "raider", "raider", "raider", "raider", "builder"]],
-						[0.5, ["raider", "builder", "raider", "raider", "raider", "raider", "builder", "skirmish", "builder", "skirmish", "skirmish"]]
+						[0.9, ["raider", "raider", "raider", "raider", "raider", "builder", "raider", "raider", "raider", "raider", "raider", "builder","raider", "builder", "raider", "raider", "raider", "builder", "skirmish", "skirmish", "skirmish", "skirmish"]]
 					],
 					"factoryplane": [
-						[0.5, ["anti_air", "builder", "anti_air", "anti_air"]],
-						[0.5, ["anti_air", "builder", "anti_air", "builder"]]
+						[0.5, ["anti_air", "builder", "anti_air", "anti_air", "anti_air", "builder", "anti_air", "anti-air"]]
 					],
 					"factorytank": [
-						[0.5, ["builder", "scout", "scout", "builder", "raider", "raider",  "raider"]],
-						[0.5, ["builder", "scout", "scout", "builder", "assault"]]
+						[0.5, ["builder", "scout", "scout", "builder", "raider", "raider",  "raider", "builder", "scout", "scout", "builder", "scout"]]
 					],
 					"factoryspider": [
-						[0.5, ["scout", "scout", "scout", "scout", "scout", "scout", "riot", "scout", "builder", "scout", "riot", "scout", "builder"]],
-						[0.5, ["scout", "scout", "scout", "scout", "scout", "scout", "scout", "scout", "scout", "scout", "scout", "scout", "builder", "riot", "scout", "builder", "support"]]
+						[0.5, ["scout", "builder", "scout", "scout", "scout", "scout", "scout", "riot", "scout", "scout", "scout", "riot", "scout", "builder","scout", "builder", "scout", "scout", "scout", "scout", "riot", "scout", "builder", "scout"]]
 					],
 					"factoryshield": [
-						[0.5, ["scout", "raider", "raider", "raider", "builder", "builder"]],
-						[0.5, ["scout", "builder", "raider", "raider", "builder", "raider", "raider", "raider"]]
+						[0.5, ["builder", "raider", "raider", "raider", "raider", "raider", "raider", "builder", "riot","riot", "raider", "raider", "raider", "raider", "builder", "raider", "raider", "raider"]]
 					],
 					"factoryjump": [
-						[0.5, ["scout", "scout", "raider", "builder", "scout", "raider"]],
-						[0.5, ["scout", "scout", "scout", "builder", "scout", "raider", "scout", "raider"]]
+						[0.5, ["scout", "scout", "scout", "scout","builder", "raider", "raider","scout", "raider", "raider", "raider", "builder", "raider", "raider", "raider"]]
 					]
 				},
-				"default": ["raider", "raider", "builder"]
+				"default": ["riot", "raider", "builder"]
 			},
 
 			// Morph params
@@ -196,46 +181,36 @@
 					"factorycloak": [
 						// [<weight>, [<role>, <role>, ...]]
 						[0.9, ["raider", "raider", "builder", "raider", "raider", "raider", "raider", "builder", "raider", "raider", "raider", "raider" "raider", "builder", "riot", "builder", "raider", "raider", "raider", "raider"]]
+					],
 					"factorygunship": [
-						[0.5, ["support", "support", "support", "support", "skirmish", "skirmish", "support", "skirmish", "skirmish"]],
-						[0.5, ["anti_heavy"]]
+						[0.8, ["support", "support", "support", "support", "skirmish", "skirmish", "support", "skirmish", "skirmish" "scout", "support", "builder","support", "skirmish", "skirmish", "support", "skirmish", "skirmish"]]
 					],
 					"factoryamph": [
-						[0.2, ["builder", "riot", "builder", "raider", "raider", "raider", "raider", "raider"]],
-						[0.8, ["raider", "raider", "raider", "raider", "raider", "builder", "builder", "riot", "raider", "builder", "raider"]]
+						[0.1, ["builder", "riot", "builder", "raider", "raider", "raider", "raider", "raider","raider", "raider", "raider", "raider", "raider", "builder", "raider", "riot"]]
 					],
 					"factoryveh": [
-						[0.10, ["scout", "builder", "skirmish", "builder", "riot", "builder", "scout", "scout", "scout", "skirmish", "skirmish", "skirmish"]],
-						[0.15, ["scout", "scout", "builder", "riot", "builder", "skirmish", "builder", "skirmish", "skirmish", "skirmish", "skirmish", "builder", "riot"]],
-						[0.75, ["scout", "scout", "raider", "raider", "builder", "builder", "raider", "raider", "raider", "raider", "raider", "builder", "scout"]]
+						[0.1, ["scout", "scout", "scout", "skirmish", "builder", "scout", "scout", "scout", "raider", "raider", "raider","scout", "builder", "scout", "riot", "riot", "riot", "builder", "raider", "raider", "raider"]]
 					],
 					"factoryhover": [
-						[0.5, ["builder", "raider", "raider", "raider", "raider", "builder", "raider", "raider", "raider", "raider", "raider", "builder"]],
-						[0.5, ["builder", "raider", "raider", "raider", "raider", "builder", "skirmish", "builder", "skirmish", "skirmish"]]
+						[0.9, ["raider", "raider", "raider", "raider", "raider", "builder", "raider", "raider", "raider", "raider", "raider", "builder","raider", "builder", "raider", "raider", "raider", "builder", "skirmish", "skirmish", "skirmish", "skirmish"]]
 					],
 					"factoryplane": [
-						[0.5, ["anti_air", "builder", "anti_air", "anti_air"]],
-						[0.5, ["anti_air", "builder", "anti_air", "builder"]]
+						[0.5, ["anti_air", "builder", "anti_air", "anti_air", "anti_air", "builder", "anti_air", "anti-air"]]
 					],
 					"factorytank": [
-						[0.5, ["riot", "builder", "assault", "builder", "assault", "builder", "builder", "heavy"]],
-						[0.25, ["raider", "builder", "raider", "builder", "raider", "raider", "raider", "builder", "assault"]],
-						[0.25, ["builder", "riot", "builder", "riot", "assault", "builder", "assault"]]
+						[0.5, ["builder", "scout", "scout", "builder", "raider", "raider",  "raider", "builder", "scout", "scout", "builder", "scout"]]
 					],
 					"factoryspider": [
-						[0.5, ["scout", "scout", "scout", "builder", "scout", "scout", "scout", "riot", "scout", "builder", "scout", "riot", "scout", "builder"]],
-						[0.5, ["scout", "scout", "scout", "scout", "scout", "scout", "scout", "scout", "scout", "scout", "scout", "scout", "builder", "riot", "scout", "builder", "support"]]
+						[0.5, ["scout", "builder", "scout", "scout", "scout", "scout", "scout", "riot", "scout", "scout", "scout", "riot", "scout", "builder","scout", "builder", "scout", "scout", "scout", "scout", "riot", "scout", "builder", "scout"]]
 					],
 					"factoryshield": [
-						[0.5, ["scout", "scout", "scout", "builder", "scout", "raider", "raider", "raider", "builder", "builder"]],
-						[0.5, ["scout", "builder", "raider", "raider", "scout", "scout", "scout", "builder", "raider", "raider", "raider"]]
+						[0.5, ["builder", "raider", "raider", "raider", "raider", "raider", "raider", "builder", "riot","riot", "raider", "raider", "raider", "raider", "builder", "raider", "raider", "raider"]]
 					],
 					"factoryjump": [
-						[0.5, ["scout", "scout", "raider", "scout", "builder", "assault"]],
-						[0.5, ["scout", "scout", "builder", "raider", "scout", "raider", "builder", "raider"]]
+						[0.5, ["scout", "scout", "scout", "scout","builder", "raider", "raider","scout", "raider", "raider", "raider", "builder", "raider", "raider", "raider"]]
 					]
 				},
-				"default": ["raider", "raider", "builder"]
+				"default": ["riot", "raider", "builder"]
 			},
 
 			// Morph params
@@ -289,46 +264,35 @@
 						[0.9, ["raider", "raider", "builder", "raider", "raider", "raider", "raider", "builder", "raider", "raider", "raider", "raider" "raider", "builder", "riot", "builder", "raider", "raider", "raider", "raider"]]
 					],
 					"factorygunship": [
-						[0.5, ["support", "support", "support", "support", "skirmish", "skirmish", "support", "skirmish", "skirmish"]],
-						[0.5, ["scout", "support", "builder","support", "skirmish", "skirmish", "support", "skirmish", "skirmish"]]
+						[0.8, ["support", "support", "support", "support", "skirmish", "skirmish", "support", "skirmish", "skirmish" "scout", "support", "builder","support", "skirmish", "skirmish", "support", "skirmish", "skirmish"]]
 					],
 					"factoryamph": [
-						[0.2, ["builder", "riot", "builder", "raider", "raider", "raider", "raider", "raider"]],
-						[0.8, ["raider", "raider", "raider", "raider", "raider", "builder", "builder", "riot", "raider", "builder", "raider"]]
+						[0.1, ["builder", "riot", "builder", "raider", "raider", "raider", "raider", "raider","raider", "raider", "raider", "raider", "raider", "builder", "raider", "riot"]]
 					],
 					"factoryveh": [
-						[0.1, ["scout", "scout", "scout", "builder", "skirmish", "builder", "skirmish", "skirmish", "skirmish", "scout", "builder", "riot"]],
-						[0.9, ["scout",  "scout",  "raider", "raider", "raider", "raider", "raider", "builder", "builder", "scout",  "raider", "raider", "raider", "raider", "raider", "builder"]]
+						[0.1, ["scout", "scout", "scout", "skirmish", "builder", "scout", "scout", "scout", "raider", "raider", "raider","scout", "builder", "scout", "riot", "riot", "riot", "builder", "raider", "raider", "raider"]]
 					],
 					"factoryhover": [
-						[0.5, ["builder", "raider", "raider", "raider", "raider", "builder", "raider", "raider", "raider", "raider", "raider", "builder"]],
-						[0.5, ["builder", "raider", "raider", "raider", "raider", "builder", "raider", "raider", "raider", "skirmish", "builder", "skirmish", "skirmish"]]
+						[0.9, ["raider", "raider", "raider", "raider", "raider", "builder", "raider", "raider", "raider", "raider", "raider", "builder","raider", "builder", "raider", "raider", "raider", "builder", "skirmish", "skirmish", "skirmish", "skirmish"]]
 					],
 					"factoryplane": [
-						[0.5, ["anti_air", "builder", "anti_air", "anti_air"]],
-						[0.5, ["anti_air", "builder", "anti_air", "builder"]]
+						[0.5, ["anti_air", "builder", "anti_air", "anti_air", "anti_air", "builder", "anti_air", "anti-air"]]
 					],
 					"factorytank": [
-						[0.25, ["riot", "builder", "assault", "builder", "assault", "builder", "builder", "assault"]],
-						[0.5, ["raider", "builder", "raider", "builder", "raider", "raider", "raider", "builder", "assault"]],
-						[0.25, ["builder", "riot", "builder", "riot", "assault", "builder", "assault"]]
+						[0.5, ["builder", "scout", "scout", "builder", "raider", "raider",  "raider", "builder", "scout", "scout", "builder", "scout"]]
 					],
 					"factoryspider": [
-						[0.5, ["scout", "scout", "scout", "scout", "scout", "scout", "riot", "scout", "builder", "scout", "riot", "scout", "builder"]],
-						[0.5, ["scout", "scout", "scout", "scout", "scout", "scout", "scout", "scout", "scout", "scout", "scout", "scout", "builder", "riot", "scout", "builder", "support"]]
+						[0.5, ["scout", "builder", "scout", "scout", "scout", "scout", "scout", "riot", "scout", "scout", "scout", "riot", "scout", "builder","scout", "builder", "scout", "scout", "scout", "scout", "riot", "scout", "builder", "scout"]]
 					],
 					"factoryshield": [
-						[0.5, ["scout", "raider", "raider", "raider", "builder", "builder"]],
-						[0.5, ["scout", "builder", "raider", "raider", "builder", "raider", "raider", "raider"]]
+						[0.5, ["builder", "raider", "raider", "raider", "raider", "raider", "raider", "builder", "riot","riot", "raider", "raider", "raider", "raider", "builder", "raider", "raider", "raider"]]
 					],
 					"factoryjump": [
-						[0.5, ["scout", "scout", "scout", "scout", "raider", "raider"]],
-						[0.5, ["scout", "scout", "scout", "scout", "builder", "raider", "raider"]]
+						[0.5, ["scout", "scout", "scout", "scout","builder", "raider", "raider","scout", "raider", "raider", "raider", "builder", "raider", "raider", "raider"]]
 					]
 				},
-				"default": ["raider", "raider", "builder"]
+				"default": ["riot", "raider", "builder"]
 			},
-
 			// Morph params
 			"upgrade": {
 				"time": 120,  // Force-morph delay, in seconds

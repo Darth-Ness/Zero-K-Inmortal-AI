@@ -1,4 +1,5 @@
 // Mono-space font required
+// version 0.2 (this helps me remember which files I need to update)
 {
 // Build special units when enemy_metal*ratio > response_metal*eps; eps=teamSize*eps_step+(1-eps_step)
 // AA condition for 3v3: (enemy_air_metal*0.67 > (aa_metal+aa_cost)*1.12) and (aa_metal+aa_cost < army_metal*0.5)
@@ -105,6 +106,14 @@
 		"importance": [ 180.0],
 		"max_percent": 0.50,
 		"eps_step": 0.00
+	},
+	"napalmmissile": {
+	    "vs":         ["raider"],
+		"ratio":      [ 1.50],
+		"importance": [ 300 ],
+		"max_percent": 0.50,
+		"eps_step": 0.00
+		
 	}
 }
 }
